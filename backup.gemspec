@@ -6,12 +6,12 @@ Gem::Specification.new do |gem|
 
   ##
   # General configuration / information
-  gem.name        = 'backup'
+  gem.name        = 'backup-agoddard'
   gem.version     = Backup::Version.current
   gem.platform    = Gem::Platform::RUBY
-  gem.authors     = 'Michael van Rooijen'
-  gem.email       = 'meskyanichi@gmail.com'
-  gem.homepage    = 'http://rubygems.org/gems/backup'
+  gem.authors     = 'Michael van Rooijen; Anthony Goddard; Dane O\'Connor'
+  gem.email       = 'meskyanichi@gmail.com; agoddard@eol.org'
+  gem.homepage    = 'http://github.com/agoddard/backup'
   gem.summary     = 'Backup is a RubyGem, written for UNIX-like operating systems, that allows you to easily perform backup operations on both your remote and local environments. It provides you with an elegant DSL in Ruby for modeling your backups. Backup has built-in support for various databases, storage protocols/services, syncers, compressors, encryptors and notifiers which you can mix and match. It was built with modularity, extensibility and simplicity in mind.'
 
   ##
